@@ -71,6 +71,20 @@ let res=toString(arr)
 console.log(res) //1,2,3,4
 
 ```
+>> _reverse and toReversed_
+```js
+//1
+let nums=[1,2,3]
+nums.reverse()
+console.log(nums) //[3,2,1]
+```
+>> _Now, let's move on to the join() method. The join() method is used to concatenate the elements of an array into a string. It does not modify the original array and returns the concatenated string._
+```js
+let students=["Hamza", "Muhammadullo", "Amir"]
+let res=students.join(",")
+console.log(res) //"Hamza, Muhammadullo, Amir"
+```
+
 >> _1.Method-push-The push() method adds one or more elements to the end of an array and returns the new length of the array._
 ```js
 // push
