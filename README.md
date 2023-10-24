@@ -38,6 +38,26 @@ console.log(numbers) //[1,2,3, , ,"Seven7"]
 ```
 
 # _2.Array Methods_
+>> _sort and toSorted-The sort() method sorts the elements of an array based on their string representations by default. It converts each element to a string and compares the strings to determine the order. This can lead to unexpected results when sorting numbers, as they are treated as strings._
+```js
+//sort 
+let students=["Hamza", "Abdurahmon", "Muhammadullo"]
+students.sort()
+cosole.log(students) //["Abdurahmon", "Muhammadullo", "Hamza"]
+
+//sort
+let numbers=[2,6,7,0,-3]
+numbers.sort()
+console.log(numbers) //[-3,0,2,6,7]
+
+
+//toSorted
+let numbers=[2,6,9,0]
+numbers.toSorted()
+console.log(numbers) //[0,2,6,9]
+
+```
+
 >> _String and toString_
 ```js
 //string
