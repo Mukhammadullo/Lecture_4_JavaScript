@@ -3,7 +3,6 @@
 
 ```js
 let arr=[1,2,"Muhammadullo", [1,2,"Nastulloev"],{name:"Muhammadullo"}]
-
 console.log(arr) //[1,2,"Muhammadullo",[1,2,"Nastulloev"],{name:"Muhammadullo"}]
 
 
@@ -39,7 +38,19 @@ console.log(numbers) //[1,2,3, , ,"Seven7"]
 ```
 
 # _2.Array Methods_
+>> _String and toString_
+```js
+//string
+let arr=[1,2,3,4,5]
+let res=String(arr)
+console.log(res) //1,2,3,4,5
 
+//toString
+let arr=[1,2,3,4]
+let res=toString(arr)
+console.log(res) //1,2,3,4
+
+```
 >> _1.Method-push-The push() method adds one or more elements to the end of an array and returns the new length of the array._
 ```js
 // push
@@ -187,5 +198,10 @@ console.log(res) // [2,4,6]
 ```
 >> _In JavaScript, the reduce() method is an array method that applies a callback function to each element of an array, resulting in a single value. It "reduces" the array to a single value by iterating over the elements and accumulating a result based on the callback function._
 ```js
- 
+ let numbers=[1,2,3,4,5]
+ let res=numbers.reduce(function(accumulator, currentValue){
+    return accumulator+currentValue
+ },0)
+ console.log(res) // 15
+
 ```
