@@ -116,6 +116,16 @@ console.log(newRes) // true
 ```
 >> _Method-slice()_
 ```js
+//slice ()-Array and Stiring method
 
+let students=["Hamza", "Muhammadullo", "Amir"]
+let res=students.slice(1)
+console.log(res) //["Muhammadullo", "Amir"]
 ```
 
+>> _Method concat()_
+```js
+let students=["Amir"]
+let studentsNew=["Muhammadullo", "Hamza"]
+let res=students.concat(studentsNew) // ["Amir", "Muhammadullo", "Hamza"]
+```
