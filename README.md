@@ -114,5 +114,8 @@ let students=["Hamza", "Amir", "Muhammadullo"]
 let newRes=students.includes("Amir") 
 console.log(newRes) // true
 ```
+>> _Method-slice()_
+```js
 
+```
 
