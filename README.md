@@ -98,6 +98,20 @@ nums.shift()
 console.log(nums) //[2,3,4]
 ```
 
+>> _Method splice()-The splice() method takes in two or more arguments. The first argument specifies the starting index from where you want to make changes in the array. The second argument specifies the number of elements you want to remove from the array. If you don't want to remove any elements, you can pass 0 as the second argument._
+```js
+let fruits = ["apple", "banana", "cherry", "date"];
+fruits.splice(1, 2); // Removes 'banana' and 'cherry'
+console.log(fruits); // Output: ['apple', 'date']
+// Adding elements using splice()
+fruits.splice(1, 0, "orange", "grape"); // Inserts 'orange' and 'grape' at index 1
+console.log(fruits); // Output: ['apple', 'orange', 'grape', 'date']
+
+// Replacing elements using splice()
+fruits.splice(2, 1, "kiwi"); // Replaces 'grape' with 'kiwi' at index 2
+console.log(fruits); // Output: ['apple', 'orange', 'kiwi', 'date']
+
+```
 >> _Method-indexOf()_
 ```js
 // indexOf() -Array and String method
@@ -125,6 +139,8 @@ console.log(res) //["Muhammadullo", "Amir"]
 
 >> _Method concat()_
 ```js
+//concat ()- Array and String method
+
 let students=["Amir"]
 let studentsNew=["Muhammadullo", "Hamza"]
 let res=students.concat(studentsNew) // ["Amir", "Muhammadullo", "Hamza"]
