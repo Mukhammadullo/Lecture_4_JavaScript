@@ -257,3 +257,8 @@ console.log(res) // [2,4,6]
      let expandedArray = [...numbers, 4, 5];
      console.log(expandedArray); // Output: [1, 2, 3, 4, 5]
 ```
+>> _Rest-Rest :The rest syntax is also denoted by the ... (three dots) notation, but it is used in a different context.When used with function parameters, it allows you to represent an indefinite number of arguments as an array._
+```js
+let sum=(...numbers)=>numbers.reduce((accumulator, currentValue)=> accumulator+currentValue, 0);
+console.log(sum(1,2,3,,4,5)) // Output: 15
+```
