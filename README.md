@@ -145,3 +145,30 @@ let students=["Amir"]
 let studentsNew=["Muhammadullo", "Hamza"]
 let res=students.concat(studentsNew) // ["Amir", "Muhammadullo", "Hamza"]
 ```
+
+>> _What is JavaScript array methods callbacks-In JavaScript, a callback function is a function that is passed as an argument to another function and is executed inside that function. When it comes to arrays, callback functions are often used with array methods like forEach(), map(), filter(), and reduce()_
+
+>> _forEach() in JavaScript_
+```js
+let numbers=[1,2,3,4,5]
+numbers.forEach(function(element){
+    console.log(element*2)
+})
+
+//1 ,4, 6, 8,10
+
+```
+>> _map()- In JavaScript, the map() method is an array method that creates a new array by calling a callback function on each element of the original array. The callback function is executed for each element, and the returned value is used to populate the new array._
+
+```js
+let numbers=[2,3,4]
+let newNum=numbers.map(function(element){
+    return element*2
+})
+console.log(newNum) // [2,6,8] 
+```
+
+>> _find()_
+```js
+
+```
