@@ -239,3 +239,21 @@ console.log(res) // [2,4,6]
  console.log(res) // 15
 
 ```
+
+> ## _Mechanism in JavaScript_
+
+>> _Destructuring mechanism-In JavaScript, destructuring is a mechanism, not a method. It allows you to extract values from arrays or objects and assign them to variables in a concise and convenient way._
+```js
+//destructure mechanism
+   let numbers = [1, 2, 3];
+     let [a, b, c] = numbers;
+     console.log(a, b, c); // Output: 1 2 3
+```
+
+>> _Spread-Spread-The spread syntax is denoted by the ... (three dots) notation.When used with arrays, it allows you to expand an array into individual elements._
+```js
+//spread mechanism
+     let numbers = [1, 2, 3];
+     let expandedArray = [...numbers, 4, 5];
+     console.log(expandedArray); // Output: [1, 2, 3, 4, 5]
+```
