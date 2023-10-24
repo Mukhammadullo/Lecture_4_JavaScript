@@ -179,5 +179,13 @@ console.log(res) //4
 
 >> _filter()-The filter() method creates a shallow copy of a portion of a given array, filtered down tojust the elements from the given array that pass the test implemented by the provided function._
 ```js
-
+let numbers=[1,2,3,4,5,6]
+let res=numbers.filter(function(element){
+    element%2==0
+})
+console.log(res) // [2,4,6]
+```
+>> _In JavaScript, the reduce() method is an array method that applies a callback function to each element of an array, resulting in a single value. It "reduces" the array to a single value by iterating over the elements and accumulating a result based on the callback function._
+```js
+ 
 ```
