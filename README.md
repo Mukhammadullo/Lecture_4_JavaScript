@@ -58,6 +58,61 @@ console.log(vegetables) //["carrot", "onion","cucumber"]
 
 >> _2.Method-pop-The pop() method removes the last element from an array and returns that element._
 ```js
-let students
+//1
+let students=["Hamza", "Amir", "Muhammadullo"]
+students.pop()
+console.log(students) //["Hamza", "Amir"]
+
+//2
+let students=["Hamza", "Amir", "Muhammadullo"]
+let last=students.pop()
+console.log(last) //Muhammadullo
+
+//3
+let students=["Hamza", "Amir", "Muhammadullo"]
+let last1=students.pop()
+let last2=students.pop()
+
+console.log(students) //["Hamza"]
 ```
+>> _Method-The unshift() method adds one or more elements to the beginning of an array andreturns the new length of the array._
+
+```js
+//1
+let students=["Amir", "Muhammadullo"]
+students.unshift("Hamza")
+console.log(students) //["Hamza", "Amir", "Muhammadullo"]
+
+//2
+let nums=[]
+nums.unshift(1,2)
+console.log(nums) //[1,2]
+```
+>> _Method-The pop() method removes the first element from an array and returns that element._
+```js
+//pop()
+
+//1
+let nums=[1,2,3,4]
+nums.shift()
+console.log(nums) //[2,3,4]
+```
+
+>> _Method-indexOf()_
+```js
+// indexOf() -Array and String method
+let students=["Amir", "Hamza", "Muhammadullo"]
+let index=students.indexOf("Hamza")
+console.log(index) //1
+```
+>> _Method-includes()_
+```js
+
+//includes()- Array and String method
+
+let students=["Hamza", "Amir", "Muhammadullo"]
+let newRes=students.includes("Amir") 
+console.log(newRes) // true
+```
+
 
