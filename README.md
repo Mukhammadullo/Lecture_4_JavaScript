@@ -168,7 +168,16 @@ let newNum=numbers.map(function(element){
 console.log(newNum) // [2,6,8] 
 ```
 
->> _find()_
+>> _find()In JavaScript, the find() method is an array method that is used to find the first element in an array that satisfies a given condition. It returns the value of the first element that matches the condition, or undefined if no element is found._
+```js
+let nums=[1,2,3,4]
+let res=nums.find(function(element){
+    return element > 3
+})
+console.log(res) //4
+```
+
+>> _filter()-The filter() method creates a shallow copy of a portion of a given array, filtered down tojust the elements from the given array that pass the test implemented by the provided function._
 ```js
 
 ```
