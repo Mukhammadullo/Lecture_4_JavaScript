@@ -9,7 +9,7 @@ console.log(arr) //[1,2,"Muhammadullo",[1,2,"Nastulloev"],{name:"Muhammadullo"}]
 //change element in array
 //1
 
-let arr=[1,2,3,4,5]
+let arr=[1,2,3,4]
 arr[0]="Change Element"
 console.log(arr) //Change Element
 
